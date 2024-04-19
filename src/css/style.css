@@ -1,0 +1,90 @@
+header{
+    position: absolute;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 111;
+}
+
+header img{
+    height: 40px;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 100px 50px;
+}
+
+main section{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+section .main-image{
+    max-width: 600px;
+}
+
+.main-image img{
+    width: 100%;
+}
+
+section .info{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+}
+
+section .btn{
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    width: fit-content;
+    padding: 8px 40px;
+    border-radius: 40px;
+}
+
+.btn:hover{
+    background: hsl(300, 69%, 71%);
+    color: white;
+}
+
+footer{
+    width: 100%;
+    padding: 0px 40px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+footer ul li{
+    list-style: none;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a img{
+    transform: scale(0.4);
+    filter: invert(1);
+}
